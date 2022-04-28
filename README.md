@@ -27,7 +27,7 @@ cd cpu_monitoring
 
 ### Для  Python
 
-Устанавливаем Python (<https://www.python.org/downloads/>)  
+Устанавливаем [Python](<https://www.python.org/downloads/>)  
 Устанавливаем окружение и ставим пакет psutil
 
 ```bash
@@ -40,19 +40,19 @@ pip install psutil
 
 ### Для node.js
 
-Установка Node.js (<https://nodejs.org/en/download/package-manager/>)
+Установка [Node.js](<https://nodejs.org/en/download/package-manager/>)
 
 Нет пакетов сторонних, только нативные, зависимости ставить не нужно
 
 ### Для Power Shell
 
-Нужно постаивть терминал Power Shell для Linux (<https://docs.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.2>)
+Нужно постаивть терминал [Power Shell для Linux](<https://docs.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.2>)
 
 ### Установка Grafana, InfluxDB,Telegraf
 
-Grafana (<https://grafana.com/docs/grafana/latest/installation/>)
-InfluxDB (<https://docs.influxdata.com/influxdb/v1.8/introduction/install/>)
-Telegraf (<https://docs.influxdata.com/telegraf/v1.21/introduction/installation/>)
+[Grafana](<https://grafana.com/docs/grafana/latest/installation/>)
+[InfluxDB](<https://docs.influxdata.com/influxdb/v1.8/introduction/install/>)
+[Telegraf](<https://docs.influxdata.com/telegraf/v1.21/introduction/installation/>)
 
 ### Настройка переменных окружения
 
