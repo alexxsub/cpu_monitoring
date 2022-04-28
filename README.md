@@ -58,11 +58,11 @@ Telegraf (<https://docs.influxdata.com/telegraf/v1.21/introduction/installation/
 
 Нужно исправить в файле env.sh под свои данные
 
-PATH_SCRIPT= пусть к скриптам
-URL_INFLUXDB= url к influxdb база
-TOKEN_INFLUXDB= токен доступа influxdb
-ORG_INFLUXDB=название организации
-BUCKET_INFLUXDB=корзина
+- PATH_SCRIPT= пусть к скриптам
+- URL_INFLUXDB= url к influxdb база
+- TOKEN_INFLUXDB= токен доступа influxdb
+- ORG_INFLUXDB=название организации
+- BUCKET_INFLUXDB=корзина
 
 выполнить
 
