@@ -82,14 +82,22 @@ source ./env.sh
 
 <p float="left">
         <kbd>
-<img src="https://github.com/alexxsub/cpu_monitoring/blob/e60895701ac91930430e0741515c2bb39502cd2a/screens/screen.png" border="1" alt="Grafana screen"
+<img src="screens/screen.png" border="1" alt="Grafana screen"
         title="Grafana screen"  />
                 </kbd>
 </p>
 
 ### Описание скриптов
 
-test.sh -  апустить все скрипты с выводом в консоль
+test.sh -  запустить все скрипты с выводом в консоль
+
+<p float="left">
+        <kbd>
+<img src="screens/test.png" border="1" alt="test script"
+        title="test script"  />
+                </kbd>
+</p>
+
 
 cpu_monitor.sh - отображение загрузки в консоли для Linux
 сзг_monitor.ps1  - отображение загрузки в консоли для Windows
