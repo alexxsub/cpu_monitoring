@@ -1,6 +1,8 @@
 
 <a href='https://www.grafana.com/'><img src='https://grafana.com/static/assets/internal/grafana_logo-web-white-text.svg' height='100' alt='Grafana'></a>
 
+<a href='https://www.influxdata.com/'><img src='<https://www.influxdata.com/wp-content/uploads/influxdata_full_navy.svg' height='100' alt='InfluxDB'></a>
+
 # Примеры скриптов для мониторинга загрузки ЦПУ
 
 Примеры на разных языках: Power Shell, Node.js,Python,bash
