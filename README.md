@@ -82,7 +82,7 @@ source ./env.sh
 
 <p float="left">
         <kbd>
-<img src="screens/grafana.png" border="1" alt="Grafana screen"
+<img src="https://github.com/alexxsub/cpu_monitoring/blob/e60895701ac91930430e0741515c2bb39502cd2a/screens/screen.png" border="1" alt="Grafana screen"
         title="Grafana screen"  />
                 </kbd>
 </p>
