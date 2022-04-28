@@ -1,0 +1,1 @@
+c:\telegraf\telegraf.exe -config C:\Users\alexe\work\monitoring\telegraf_win.conf
