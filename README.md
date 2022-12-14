@@ -54,6 +54,7 @@ pip install psutil
 [InfluxDB](<https://docs.influxdata.com/influxdb/v1.8/introduction/install/>)
 [Telegraf](<https://docs.influxdata.com/telegraf/v1.21/introduction/installation/>)
 
+
 ### Настройка переменных окружения
 
 Нужно исправить в файле env.sh под свои данные
