@@ -1,4 +1,5 @@
-
+#Консольная утилита, выводит загрузку ЦПУ в консоль в бесконечном цикле
+#Функция конвертации кодировки
 function Convert ([string]$From, [string]$To){
     Begin
     {
@@ -10,7 +11,7 @@ function Convert ([string]$From, [string]$To){
         $encFrom.GetString($encTo.GetBytes($_))
     }
 }
-
+#функция вычисления % использования процессора
 function cpu_busy {
     $lang = ([CultureInfo]::InstalleduICulture).Name
     if ($lang -match "ru-") {

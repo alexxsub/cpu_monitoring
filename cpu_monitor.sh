@@ -1,4 +1,5 @@
     #!/bin/bash
+    #Консольная утилита, выводит загрузку ЦПУ в консоль в бесконечном цикле
     # by Paul Colby (http://colby.id.au), no rights reserved ;)
 
     PREV_TOTAL=0

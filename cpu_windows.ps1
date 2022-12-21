@@ -1,4 +1,4 @@
-
+#Функция конвертации кодировки
 function Convert ([string]$From, [string]$To){
     Begin
     {
@@ -10,7 +10,7 @@ function Convert ([string]$From, [string]$To){
         $encFrom.GetString($encTo.GetBytes($_))
     }
 }
-
+#функция вычисления % использования процессора
 function cpu_busy {
     $lang = ([CultureInfo]::InstalleduICulture).Name
     if ($lang -match "ru-") {
@@ -22,9 +22,9 @@ function cpu_busy {
     [Math]::Round($((Get-Counter $cpucounter -SampleInterval 1 -ErrorAction SilentlyContinue).CounterSamples.CookedValue),2) 
 }
 
-#$cpu_busy = Get-WmiObject -Class win32_processor -ErrorAction Stop | Measure-Object -Property LoadPercentage -Average | Select-Object Average).Average
 
 $hostname = $env:COMPUTERNAME
+#Варианты перевода в наносекунды
 #$timestamp=[int64](([datetime]::UtcNow)-(get-date "1/1/1970")).TotalMilliseconds*1000000
 #$timestamp="$([int64](Get-Date -UFormat %s))000000"
 $timestamp = "$([DateTimeOffset]::Now.ToUnixTimeMilliseconds())000000"

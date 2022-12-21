@@ -1,3 +1,6 @@
+#Пример сбора статистики использования ЦПУ под Windows на Python через WMI
+#Требуется установка пакета wmi
+#
 import wmi,time,socket
 def get_cpu():
     a = wmi.WMI()
